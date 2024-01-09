@@ -1,0 +1,28 @@
+.navbar-wrapper {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.left {
+    color: #1A181E;
+}
+
+.help-text {
+    color: #4d4d4d;
+    margin-left: 6px;
+}
+
+.navbar-search {
+    background-color: #f2f2f2;
+    padding: 9px 16px 9px 40px;
+}
+
+.navbar-search::placeholder {
+    color: #808080;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.navbar-svg {
+    background-color: #e6e6e6;
+}

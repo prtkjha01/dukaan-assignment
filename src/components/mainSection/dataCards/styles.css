@@ -1,0 +1,32 @@
+.card {
+    box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
+}
+
+.card.short {
+    height: fit-content;
+}
+
+.card.blue {
+    color: #fff;
+    background-color: #146eb4;
+}
+
+.card-title {
+    color: #4d4d4d;
+}
+
+.blue .card-title {
+    color: #fff;
+}
+
+.action-text {
+    color: #146eb4;
+}
+
+.blue .action-text {
+    color: #fff;
+}
+
+.card-footer {
+    background-color: #0E4F82;
+}

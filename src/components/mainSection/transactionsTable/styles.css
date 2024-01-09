@@ -1,0 +1,75 @@
+.btn {
+    border: 1px solid var(--Black-85, #d9d9d9);
+    gap: 6px;
+    font-size: 16px;
+    color: #4d4d4d;
+    font-weight: 400;
+}
+
+.table-search {
+    border-radius: 4px;
+    border: 1px solid var(--Black-85, #d9d9d9);
+    width: 248px;
+    height: 40px;
+    padding: 10px 16px 10px 40px;
+}
+
+.table-search::placeholder {
+    color: #999;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+table.transaction-table {
+    table-layout: fixed;
+}
+
+.transaction-table tr.header-row {
+    background-color: #f2f2f2;
+}
+
+.transaction-table tr>th {
+    padding-block: 10px;
+    color: #4d4d4d;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.transaction-table tr>td {
+    padding-block: 14px;
+}
+
+.transaction-table tr>th:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.transaction-table tr>th:first-child,
+.transaction-table tr>td:first-child {
+    padding-left: 12px;
+}
+
+.transaction-table tr>th:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.transaction-table tr>th:last-child,
+.transaction-table tr>td:last-child {
+    padding-right: 12px;
+}
+
+.transaction-table tr>td.table-text {
+    color: #4d4d4d;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.transaction-table tr>td.table-text.order-id {
+    color: #146EB4;
+    font-weight: 500;
+}
+
+.status p {
+    gap: 6px;
+}
