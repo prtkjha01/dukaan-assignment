@@ -2,6 +2,7 @@ import "./styles.css";
 const index = () => {
   return (
     <div className="navbar-wrapper h-16 sticky top-0 bg-white flex justify-between gap-4 px-8 py-3">
+      {/* LEFT START */}
       <div className="w-full left flex justify-start items-center gap-4">
         <div className="text-[20px] font-[500] tracking-wider">Payouts</div>
         <div className="flex items-center">
@@ -41,6 +42,9 @@ const index = () => {
           <p className="text-[12px] help-text">How it works</p>
         </div>
       </div>
+      {/* LEFT END */}
+
+      {/* CENTER START */}
       <div className="w-full center relative flex justify-center items-center">
         <input
           className="navbar-search h-10 rounded-md w-full"
@@ -68,6 +72,9 @@ const index = () => {
           </defs>
         </svg>
       </div>
+      {/* CENTER END */}
+
+      {/* RIGHT START */}
       <div className="w-full right flex justify-end items-center gap-3">
         <div className="navbar-svg h-10 w-10 rounded-full flex justify-center items-center">
           <svg
@@ -106,6 +113,7 @@ const index = () => {
           </svg>
         </div>
       </div>
+      {/* RIGHT START */}
     </div>
   );
 };
