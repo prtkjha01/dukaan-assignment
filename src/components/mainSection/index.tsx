@@ -6,7 +6,9 @@ import Table from "./transactionsTable/Table";
 const index = () => {
   return (
     <div className="main-section-wrapper p-8">
+      {/* OVERVIEW SECTION START */}
       <section className="overview">
+        {/* OVERVIEW SECTION HEADER START */}
         <header className="section-header flex justify-between mb-6">
           <div className="text-[20px] tracking-wider">Overview</div>
           <div className="time-dropdown flex items-center h-9 rounded">
@@ -27,22 +29,29 @@ const index = () => {
             </span>
           </div>
         </header>
+        {/* OVERVIEW SECTION HEADER END */}
         <div className="data-cards flex gap-5">
           <NextPayoutCard />
           <AmountPendingCard />
           <AmountProcessedCard />
         </div>
       </section>
+      {/* OVERVIEW SECTION END */}
+
+      {/* TRANSACTIONS SECTION START */}
       <section className="transactions mt-8">
+        {/* TRANSACTIONS SECTION HEADER START */}
         <div className="text-[20px] mb-5 tracking-wider">
           Transactions | This Month
         </div>
+        {/* TRANSACTIONS SECTION HEADER END */}
         <div className="badge-row flex gap-3 mb-6">
           <div className="badge active text-white px-4">Payouts (22)</div>
           <div className="badge px-4">Refunds (2)</div>
         </div>
         <Table />
       </section>
+      {/* TRANSACTIONS SECTION END */}
     </div>
   );
 };
